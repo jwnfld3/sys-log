@@ -26,7 +26,6 @@ Get-EventLog -LogName Security
 <br />
 <br />
  <br />
-
 <img src="https://imgur.com/GgVHgGw.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -34,7 +33,6 @@ Get-EventLog -LogName Security
 <br />
 <br />
  <br />
-
 <img src="https://imgur.com/liG1qx0.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -42,18 +40,7 @@ Get-EventLog -LogName Security
 <br />
 <br />
  <br />
-
 <img src="https://imgur.com/1df01cg.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
-
- 
-
- 
-
- 
-
- 
-
- 
 
 ***Did the large number of results from the event logs occur because they encompass the entire lifespan of the computer?***
 
@@ -83,13 +70,8 @@ Get-EventLog -LogName Application -After (Get-Date).AddDays(-7)
 <br />
 <br />
  <br />
-
 <img src="https://imgur.com/0UKREbm.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
- 
-
- 
-
- 
+  
 Filtering the event specifically by the type made the list not as long rather than combining them all at once. Now, the can be exported into a .CSV file, which can be much easier to review and share with others who need to see the logs.
 
 Get-EventLog -LogName Application -EntryType Error | Export-Csv -Path "C:\Logs\error_logs.csv" -NoTypeInformation
@@ -99,15 +81,11 @@ Get-EventLog -LogName Application -EntryType Error | Export-Csv -Path "C:\Logs\e
 <img src="https://imgur.com/yJbzqpX.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-
- 
 The spreadsheet was sent to the requested folder and is now ready for review.
 <br />
 <br />
 <img src="https://imgur.com/kRJa9cN.png" height="130%" width="130%" alt="Disk Sanitization Steps"/>
  
- 
-
 In this lab, system event logs were explored and managed using PowerShell. Key tasks included retrieving event logs from various categories, filtering logs based on criteria such as error types or event sources, exporting logs for further analysis, and clearing logs when necessary. These skills are essential for maintaining system health, troubleshooting issues, and ensuring that systems run smoothly.
 
 
