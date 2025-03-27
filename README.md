@@ -1,8 +1,16 @@
 # Exploring and Managing System Event Logs with PowerShell
 
 Scenario:
-In this lab, system event logs are explored and managed using PowerShell. As a system administrator, monitoring and reviewing event logs is essential for identifying issues, ensuring system health, and troubleshooting potential problems. PowerShell cmdlets like Get-EventLog are used to gather event logs from various categories (e.g., application, system, security), filter logs based on specific criteria (e.g., error types or event sources), and export these logs for further analysis or reporting.
+In this lab, system event logs are explored and managed using PowerShell. As a system administrator, monitoring and reviewing event logs is essential for identifying issues, ensuring system health, and troubleshooting potential problems. PowerShell cmdlets like Get-EventLog are used to gather event logs from various categories (e.g., application, system, security), filter logs based on specific criteria (e.g., error types or event sources), and export these logs for further analysis or reporting.<br/>
 
+<h2>Environments Used </h2>
+
+- <b>Hyper-V</b>
+- <b>Windows Server 2016</b>
+- <b>Windows 11</b>
+<br />
+<br />
+ <br />
 Open PowerShell as Administrator
 - Press Windows Key + X and select Windows PowerShell (Admin) or PowerShell (Admin).
 - If prompted by User Account Control (UAC), click Yes to allow the app to make changes to your device.
