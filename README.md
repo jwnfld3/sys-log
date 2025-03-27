@@ -67,7 +67,18 @@ Get-EventLog -LogName System -Source "Service Control Manager"
 
 Filter by Date (e.g., logs from the past 7 days):
 Get-EventLog -LogName Application -After (Get-Date).AddDays(-7)
-
+<br />
+ <br />
+<br/>
+<img src="https://imgur.com/I5ZO4x8.png" height="130%" width="130%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://imgur.com/nAQ2oZY.png" height="130%" width="130%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ <br />
+<br/>
+<img src="https://imgur.com/0UKREbm.png" height="130%" width="130%" alt="Disk Sanitization Steps"/>
  
 
  
@@ -76,10 +87,18 @@ Get-EventLog -LogName Application -After (Get-Date).AddDays(-7)
 Filtering the event specifically by the type made the list not as long rather than combining them all at once. Now, the can be exported into a .CSV file, which can be much easier to review and share with others who need to see the logs.
 
 Get-EventLog -LogName Application -EntryType Error | Export-Csv -Path "C:\Logs\error_logs.csv" -NoTypeInformation
+<br />
+ <br />
+<br/>
+<img src="https://imgur.com/yJbzqpX.png" height="130%" width="130%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 
  
-
 The spreadsheet was sent to the requested folder and is now ready for review.
+<br />
+<br />
+<img src="https://imgur.com/kRJa9cN.png" height="130%" width="130%" alt="Disk Sanitization Steps"/>
  
  
 
