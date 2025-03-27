@@ -22,28 +22,28 @@ Get-EventLog -LogName System
 Get-EventLog -LogName Security
 <p align="center">
 <br/>
-<img src="https://imgur.com/rHJ8rsw.png .png" height="130%" width="130%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/rHJ8rsw.png .png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  <br />
 
-<img src="https://imgur.com/GgVHgGw.png" height="130%" width="130%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/GgVHgGw.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="https://imgur.com/Ho7sCZn.png" height="130%" width="130%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
- <br />
-
-<img src="https://imgur.com/liG1qx0.png" height="130%" width="130%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="https://imgur.com/01hwmmI.png" height="130%" width="130%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/Ho7sCZn.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  <br />
 
-<img src="https://imgur.com/1df01cg.png" height="130%" width="130%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/liG1qx0.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://imgur.com/01hwmmI.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ <br />
+
+<img src="https://imgur.com/1df01cg.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 
  
 
@@ -76,15 +76,15 @@ Get-EventLog -LogName Application -After (Get-Date).AddDays(-7)
 <br />
  <br />
 <br/>
-<img src="https://imgur.com/I5ZO4x8.png" height="130%" width="130%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/I5ZO4x8.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="https://imgur.com/nAQ2oZY.png" height="130%" width="130%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/nAQ2oZY.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  <br />
 
-<img src="https://imgur.com/0UKREbm.png" height="130%" width="130%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/0UKREbm.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
  
 
  
@@ -96,7 +96,7 @@ Get-EventLog -LogName Application -EntryType Error | Export-Csv -Path "C:\Logs\e
 <br />
  <br />
 <br/>
-<img src="https://imgur.com/yJbzqpX.png" height="130%" width="130%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/yJbzqpX.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
