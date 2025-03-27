@@ -20,7 +20,7 @@ Get-EventLog -LogName Security
 <br />
 <br />
  <br />
-<br/>
+
 <img src="https://imgur.com/GgVHgGw.png" height="130%" width="130%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -28,7 +28,7 @@ Get-EventLog -LogName Security
 <br />
 <br />
  <br />
-<br/>
+
 <img src="https://imgur.com/liG1qx0.png" height="130%" width="130%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -36,7 +36,7 @@ Get-EventLog -LogName Security
 <br />
 <br />
  <br />
-<br/>
+
 <img src="https://imgur.com/1df01cg.png" height="130%" width="130%" alt="Disk Sanitization Steps"/>
 
  
@@ -77,7 +77,7 @@ Get-EventLog -LogName Application -After (Get-Date).AddDays(-7)
 <br />
 <br />
  <br />
-<br/>
+
 <img src="https://imgur.com/0UKREbm.png" height="130%" width="130%" alt="Disk Sanitization Steps"/>
  
 
