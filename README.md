@@ -8,10 +8,8 @@ In this lab, system event logs are explored and managed using PowerShell. As a s
 - <b>Hyper-V</b>
 - <b>Windows Server 2016</b>
 - <b>Windows 11</b>
-<br />
-<br />
- <br />
-Open PowerShell as Administrator
+
+***Open PowerShell as Administrator***
 - Press Windows Key + X and select Windows PowerShell (Admin) or PowerShell (Admin).
 - If prompted by User Account Control (UAC), click Yes to allow the app to make changes to your device.
 
