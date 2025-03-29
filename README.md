@@ -1,7 +1,6 @@
 # Exploring and Managing System Event Logs with PowerShell
 
-<h2>Scenario</h2>
-System event logs are explored and managed using PowerShell to monitor the health and performance of a Windows environment. As a system administrator, regularly reviewing event logs is critical for identifying issues, ensuring system stability, and troubleshooting potential problems. PowerShell provides a powerful way to automate the collection and analysis of event logs from different categories such as application, system, and security.<br/>
+This lab focuses on utilizing PowerShell to explore, analyze, and manage system event logs. Event logs provide valuable insights into system performance, security incidents, and application behavior, making them essential for troubleshooting and system administration. PowerShell offers a powerful and efficient way to retrieve, filter, and automate log management tasks.<br/>
 
 <h2>Environments Used </h2>
 
